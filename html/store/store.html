@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jean Shop </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="store.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="src/style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+<style>
+.w3-sidebar a {font-family: "Roboto", sans-serif}
+body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+</style>
+</head>
+
+
+<body class="w3-content" style="max-width:1200px">
+
+
+
+<nav class="w3-sidebar w3-bar-block w3-white w3-collapse w3-top" style="z-index:3;width:250px" id="mySidebar">
+  <div class="w3-container w3-display-container w3-padding-16">
+    <i onclick="w3_close()" class="fa fa-remove w3-hide-large w3-button w3-display-topright"></i>
+    <h3 class="w3-wide"><b>HOME</b></h3>
+  </div>
+
+  <div class="w3-padding-64 w3-large w3-text-grey" style="font-weight:bold">
+    
+    <a onclick="myAccFunc()" href="#jeans" class="w3-button w3-block w3-white w3-left-align" id="myBtn">
+      Products 
+  
+  <a href="#footer" class="w3-bar-item w3-button w3-padding">Contact</a> 
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'">Newsletter</a> 
+  <a href="#footer"  class="w3-bar-item w3-button w3-padding">Subscribe</a>
+  <a href="index.html"  class="w3-bar-item w3-button w3-padding" >   Cart  </a>
+</nav>
+
+
+<header class="w3-bar w3-top w3-hide-large w3-black w3-xlarge">
+  <div class="w3-bar-item w3-padding-24 w3-wide">JEANS SHOP</div>
+  <a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding-24 w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+</header>
+
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+
+  <header class="w3-container w3-xlarge">
+    <p class="w3-left">JEANS SHOP</p>
+    <p class="w3-right"><br>
+      
+  </header>
+  <!DOCTYPE html> 
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Login Page </title>
+<style> 
+Body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: pink;
+}
+button { 
+       background-color: #bd6da5; 
+       width: 100%;
+        color: rgb(101, 169, 201); 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+ form { 
+        border: 3px solid #f1f1f1; 
+    } 
+ input[type=text], input[type=password] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid blue; 
+        box-sizing: border-box; 
+    }
+ button:hover { 
+        opacity: 0.7; 
+    } 
+  .cancelbtn { 
+        width: auto; 
+        padding: 10px 18px;
+        margin: 10px 5px;
+    } 
+      
+   
+ .container { 
+        padding: 25px; 
+        background-color: lightblue;
+    } 
+
+
+</style> 
+
+<!-- <i class="fa fa-shopping-cart w3-margin-right"></i>
+      <i class="fa fa-search"></i> -->
+<!-- 
+        <div class="cart">
+          <i class="bi bi-cart2"></i>
+          <div id="cartAmount" class="cartAmount">0</div>
+        </div>
+      </a>
+    </p>
+</head>  
+<body>   -->
+
+
+<!-- SEARCH -->
+
+<form class="search" action="">
+  <input type="search" placeholder="Search here..." required>
+  <button type="submit">Search</button>
+</form>   
+    <form>
+        <div class="container"> 
+            <label>Username : </label> 
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <label>Password : </label> 
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <a href="logined.html">
+            <button type="submit"> Login </button>
+          </a>
+            <input type="checkbox" checked="checked"> Remember me 
+            <button type="button" class="cancelbtn"> Cancel</button> 
+            Forgot <a href="#"> password? </a> 
+        </div> 
+    </form>   
+</body>   
+<!-- <script src="src/Data.js"></script>
+<script src="src/main.js"></script>  -->
+
+
+
+</html>
+
+
+  <div class="w3-display-container w3-container">
+    <img src="https://www.w3schools.com/w3images/jeans.jpg" alt="Jeans" style="width:100%">
+    <div class="w3-display-topleft w3-text-white" style="padding:24px 48px">
+      <h1 class="w3-jumbo w3-hide-small">New arrivals</h1>
+      <h1 class="w3-hide-large w3-hide-medium">New arrivals</h1>
+      <h1 class="w3-hide-small">COLLECTION JEANs</h1>
+      <p><a href="#jeans" class="w3-button w3-black w3-padding-large w3-large">SHOP NOW</a></p>
+    </div>
+  </div>
+
+  <div class="w3-container w3-text-grey" id="jeans">
+    <p style="font-size: 50px;">Jeans products of the shop:</p>
+  </div>
+
+  <div class="w3-row w3-grayscale">
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="https://www.w3schools.com/w3images/jeans1.jpg" style="width:100%">
+        <a href="ripped skinny jean.html ">Ripped Skinny Jeans</a><br><b>$24.99</b>
+      </div>
+      <div class="w3-container">
+        <img src="data:image/jpeg;base64,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" style="width:100%">
+        <a href="Mega Ripped Jeans.html">Mega Ripped Jeans</a><br><b>$19.99</b>
+
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="https://www.w3schools.com/w3images/jeans2.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">New</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <a href="Mega Ripped Jeans1.html">Mega Ripped Jeans</a><br><b>$19.00</b>
+      </div>
+
+      <div class="w3-container">
+        <img src="https://www.w3schools.com/w3images/jeans3.jpg" style="width:100%">
+        <a href="skinny jean.html" >Skinny Jeans</a><br><b>$20</b>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="https://tse2.mm.bing.net/th?id=OIP.S1GkD5kbPhHsrDQak0hAXwHaJ4&pid=Api&P=0" style="width:100%">
+        <a href="Black Jeans.html">Black Jeans </a><br><b>$20.00</b>
+      </div>
+      <div class="w3-container">
+        <div class="w3-display-container">
+          <img src="https://www.w3schools.com/w3images/jeans4.jpg" style="width:100%">
+          <span class="w3-tag w3-display-topleft">Sale</span>
+          <div class="w3-display-middle w3-display-hover">
+            <button class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button>
+          </div>
+        </div>
+        <a href="Vintage Skinny Jeans.html">Vintage Skinny Jeans</a><br><b>$15.05</b>
+      </div>
+    </div>
+
+    <div class="w3-col l3 s6">
+      <div class="w3-container">
+        <img src="https://tse1.mm.bing.net/th?id=OIP.9rJ0M1IKAmPLwKsI8H0udQHaJ2&pid=Api&P=0" style="width:100%">
+        <a href="Vintage Skinny Jeans1.html">Vintage Skinny Jeans</a><br><b>$14.09</b>
+      </div>
+      <div class="w3-container">
+        <img src="https://tse2.explicit.bing.net/th?id=OIP.4uzGVPA2xI-kAIKac1LzrwHaIZ&pid=Api&P=0" style="width:100%">
+        <a href="Ripped Skinny Jeans.html">Ripped Skinny Jeans</a><br><b>$24.99</b></p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-container w3-black w3-padding-32">
+    <h1>Subscribe</h1>
+    <p>To get special offers and VIP treatment:</p>
+    <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+    <button type="button" class="w3-button w3-red w3-margin-bottom"><a href="Subscribe.html">Subscribe</a></button>
+  </div>
+  
+  
+  <!-- Footer -->
+  <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+    <div class="w3-row-padding">
+      <div class="w3-col s4">
+        <h4>Contact</h4>
+        <p>Questions? Go ahead.</p>
+        <form action="/action_page.php" target="_blank">
+          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+          <button type="submit" class="w3-button w3-block w3-black"><a href="Send.html">Send</a></button>
+        </form>
+      </div>
+
+    
+
+      <div class="w3-col s4 w3-justify">
+        <h4>Store</h4>
+        
+        <p><i class="fa fa-fw fa-phone"></i> 0123456</p>
+        <p><i class="fa fa-fw fa-envelope"></i> evoski@mail.com</p>
+      
+    </div>
+  </footer>
+
+  <div class="w3-black w3-center w3-padding-24">THANK FOR WATHCHING</a></div>
+
+</div>
+
+
+<div id="newsletter" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom" style="padding:32px">
+    <div class="w3-container w3-white w3-center">
+      <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+      <h2 class="w3-wide">NEWSLETTER</h2>
+      <p>Join our mailing list to receive updates on new arrivals and special offers.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<script>
+
+function myAccFunc() {
+  var x = document.getElementById("demoAcc");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+document.getElementById("myBtn").click();
+
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+</body>
+<!-- <script src="src/Data.js"></script>
+<script src="src/main.js"></script> -->
+</html>

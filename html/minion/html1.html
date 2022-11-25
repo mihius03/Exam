@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text overlay img</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+             Roboto, Oxygen, Ubuntu, Cantarell, 
+            'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .overlay-container{
+            background: #f55 url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqdn8i3eKGtJCE7V6ymQU0MdQsukS-1-pflg&usqp=CAU');
+            width: 500px;
+            height: 350px;
+            background-size: cover;
+            position: relative;
+            color: #fff;
+            overflow: hidden;
+        }   
+        .overlay-text{
+            background-color: rgba(255, 85, 85, 0.85);
+            padding: 0px 10px;
+            position: absolute;
+            bottom: -92px;
+            width: 100%;
+            transition: all 0.025s ease-in-out;
+            opacity: 0;
+        }
+        .overlay-container:hover .overlay-text{
+            bottom: 0;
+            opacity: 1;
+        }
+        .overlay-tittle{
+            text-transform: uppercase;
+            font-size: 14px;
+
+        }
+        .overlay-content{
+            font-size: 14px;
+        }
+    </style>
+    <div class="overlay-container">
+        <div class="overlay-text">
+            <h3 class="overlay-tittle">TEXT OVERLAY IMG</h3>
+            <p class="overlay-content">Lorem ipsum dolor sit, amet consectetur adipisi
+                cing elit. Debitis, magnam doloremque eos quisquam c
+                orrupti dolorem nulla blanditiis nisi vero quam? 
+                oluptates, eaque!</p>
+        </div>
+    </div>
+</body>
+</html>
